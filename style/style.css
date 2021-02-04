@@ -1,0 +1,130 @@
+*{
+    margin: unset;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url('../assets/background-image.jpg');
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+#app-title{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.397);
+    left: 10px;
+    top: 10px;
+}
+
+#searchSection{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    
+}
+
+#location{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid white !important;
+    transition: 1s ease-in-out;
+}
+
+#location::placeholder{
+    color: rgba(207, 207, 207, 0.801);
+}
+
+#location:hover{
+    letter-spacing: .05em;
+}
+
+#search:focus{
+    border: 1px solid white !important;
+}
+
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+#temperature{
+    text-align: center;
+}
+
+#weatherSection{
+    margin-top: 100px;
+    color: white;
+}
+
+#weatherSection ul{
+    width: fit-content;
+    margin: 30px auto;
+}
+
+#weatherSection img{
+    width: 200px;
+}
+
+#currentDay{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.currentDayInfos{
+    display: inline-block;
+}
+
+#currentDayInfo{
+    margin-left: 100px;
+}
+
+#currentDayInfo h2{
+    font-size: 45px;
+}
+
+#description{
+    text-align: center;
+}
+
+.card{
+    width: 150px;
+    background-color: rgb(200,200,200, .3);
+    border-color: rgb(200,200,200, .3);
+    text-align: center;
+    margin: 5px;
+}
+
+.card-header{
+    background-color: transparent; 
+}
+
+#weatherFor7Days{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+#weatherFor7Days img{
+    width: 50px;
+}
+
+#weatherFor7Days h5{
+    margin-bottom: 0;
+}
+
+
